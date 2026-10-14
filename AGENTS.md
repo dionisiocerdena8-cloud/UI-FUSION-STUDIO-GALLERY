@@ -26,3 +26,12 @@ These guidelines apply to coding agents modifying the public component gallery. 
 5. Preserve published site, existing components and CI. Avoid unrelated edits.
 
 Good design depends on actual visual and usability iteration; these instructions are not proof of exceptional quality.
+
+## v5 Motion Lab creative quality gate
+
+- 105 independently authored web demos including 26 Motion Lab studies; the studio's source registry has 85 research references in the private plugin. Do not imply that linked upstream libraries are bundled or that all 105 demos have native Expo parity.
+- For immersive reference galleries: define a distinctive typographic/compositional route first, then choose one memorable motion signature. Use high-end 3D/shaders only when justified by the subject and device capabilities; never treat effects as a substitute for good visual design.
+- Always specify interaction trigger, semantic purpose, transition timing, reduced-motion alternative, accessibility and mobile/GPU fallback. Offscreen Canvas/WebGL should be paused or capped.
+- Do not copy third-party gallery screenshots, images, licensed models or fonts into the repository. Follow per-library terms and copyright notices for any actual borrowed code or assets.
+- Browser source lives in both components.json and the embedded catalog in index.html; they must stay synchronized. A web preview cannot stand in for Android Expo runtime verification.
+- Validate the catalog and snippets with scripts/check-gallery.mjs and additional browser/device tests when possible. Record what was genuinely tested; never invent FPS/WCAG/Android results.
