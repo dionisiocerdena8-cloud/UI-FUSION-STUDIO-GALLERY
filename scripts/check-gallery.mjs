@@ -26,7 +26,7 @@ else{
 const scripts=[...html.matchAll(/<script(?![^>]*type=)[^>]*>([\s\S]*?)<\/script>/g)];
 for(const [i,script] of scripts.entries())try{new vm.Script(script[1],{filename:`gallery-script-${i}.js`})}catch(e){errors.push('Gallery JS error: '+e.message)}
 for(const token of ['function makeZip','function makeBundle','id="exportSelected"','id="downloadBundle"','sandbox="allow-scripts"'])if(!html.includes(token))errors.push('Missing '+token);
-if(components.length!==79)errors.push('Expected 79 original demos, got '+components.length);
+if(components.length!==105)errors.push('Expected 105 original demos, got '+components.length);
 if(components.filter(x=>x.react).length!==32)errors.push('React port count mismatch');
 if(components.filter(x=>x.expoCode).length!==32)errors.push('Expo port count mismatch');
 console.log(`Gallery: ${components.length} demos; ${components.filter(x=>x.react).length} React TSX and ${components.filter(x=>x.expoCode).length} Expo TSX ports; ${errors.length} integrity errors.`);
