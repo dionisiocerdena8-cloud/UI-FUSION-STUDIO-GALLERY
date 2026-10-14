@@ -1,6 +1,6 @@
-# UI FUSION STUDIO — Component Lab v4.0.0
+# UI FUSION STUDIO — Motion Lab v5.0.0
 
-**79 original interactive HTML/CSS/JS browser demos**, with **32 React TSX and 32 React Native/Expo TSX starter adaptations**. A React/Expo adaptation is a *starting implementation of an interaction concept*, not guaranteed pixel/behavior parity with its browser preview and not a full app. A complete offline source inspector and ZIP collection builder live in `index.html`.
+**105 original interactive HTML/CSS/JS browser demos, including 26 new motion studies**, with **32 React TSX and 32 React Native/Expo TSX starter adaptations**. A React/Expo adaptation is a *starting implementation of an interaction concept*, not guaranteed pixel/behavior parity with its browser preview and not a full app. A complete offline source inspector and ZIP collection builder live in `index.html`.
 
 ## Quick start
 
@@ -27,4 +27,4 @@ The static gallery lives in this repository. A connected GitHub tool can commit 
 
 ## Legal and security
 
-Original gallery code is MIT-licensed (see LICENSE). The **70 external research source references** in the *private* plugin are not bundled third-party code. Every external library and asset has its own terms. Browser editor JavaScript runs only in sandboxed frames with a restrictive CSP; still review any code before integrating into your own project. Never add GitHub tokens/API keys to client JavaScript.
+Original gallery code is MIT-licensed (see LICENSE). The **85 external research source references** in the *private* plugin are not bundled third-party code. Every external library and asset has its own terms. Browser editor JavaScript runs only in sandboxed frames with a restrictive CSP; still review any code before integrating into your own project. Never add GitHub tokens/API keys to client JavaScript.
